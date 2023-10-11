@@ -5,7 +5,14 @@ export default {
     './src/**/*.{jsx,js,tsx,ts}'
   ],
   theme: {
-    extend: {},
+    extend: {
+      'colors': {
+        'primary': 'rgba(208,227,134,0.98)'
+      },
+      'fontFamily': {
+        'balisong': ['Balisong', 'sans-serif'],
+      }
+    },
   },
   plugins: [],
 }

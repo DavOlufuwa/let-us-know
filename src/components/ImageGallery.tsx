@@ -18,7 +18,7 @@ const ImageGallery = () => {
     {
       url: "https://source.unsplash.com/bzdhc5b3Bxs",
       alt: "", 
-      content: "In an increasingly interconnected world, developers from diverse backgrounds must unite to share their experiences. Collaborative knowledge exchange not only fuels innovation but also fosters a sense of community. Together, we can solve complex problems, learn from one another, and build a stronger, more inclusive tech ecosystem for all."
+      content: "In an increasingly interconnected world, developers from diverse backgrounds must unite to share their experiences. Collaborative knowledge exchange not only fuels innovation but also fosters a sense of community. Together, we can solve complex problems, learn from one another, and build a stronger tech community."
     },
     {
       url: "https://source.unsplash.com/EhTcC9sYXsw",
@@ -35,15 +35,18 @@ const ImageGallery = () => {
 
 
   return (
-    <div className="min-h-[100svh] py-32 px-4">
-      {
-        imageArray.map(({url, alt, content}) => (
-          <div key={uuidv4()} className=''>
-            <img src={url} alt={alt} className='rounded-xl'/>
-            <p>{content}</p>
-          </div>
-        ))
-      }
+    <div className="min-h-[100svh] py-16 px-4">
+
+      <div>
+        {
+          imageArray.map(({url, alt, content}) => (
+            <div key={uuidv4()} className='relative'>
+              <img src={url} alt={alt} className='rounded-2xl '/>
+              <p className='absolute top-0 pt-6 px-4 h-full w-full text-black/0 font-semibold duration-300 bg-[rgba(211,211,198,0.20)] rounded-2xl hover:text-black hover:duration-300 hover:bg-primary'>{content}</p>
+            </div>
+          ))
+        }
+      </div>
     </div>
   )
 }

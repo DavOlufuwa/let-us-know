@@ -2,8 +2,8 @@
 
 const Hero = () => {
   return (
-    <div className='relative min-h-[100svh] bg-black text-white text-sm md:text-base select-none'>
-      <h1 className='glow absolute top-[50%] md:top-[45%] w-full text-slate-200 uppercase text-6xl md:text-7xl font-black  text-center'>Share your tech story</h1>
+    <div className='relative min-h-[100svh] bg-black text-slate-200 text-sm md:text-base select-none'>
+      <h1 className='glow font-balisong absolute top-[50%] md:top-[45%] w-full text-[#ecff8f] uppercase text-5xl md:text-7xl font-black text-center'>Share your tech story</h1>
 
       <div className='absolute px-3 bottom-[20%] md:bottom-[30%] left-0 w-24 sm:min-w-max'>
         Tech is pretty interesting in the real world
