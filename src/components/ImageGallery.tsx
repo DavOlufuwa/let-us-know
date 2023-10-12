@@ -35,14 +35,14 @@ const ImageGallery = () => {
 
 
   return (
-    <div className="min-h-[100svh] py-16 px-4">
+    <div className="py-16 px-4">
 
-      <div>
+      <div className='grid gap-5 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
         {
           imageArray.map(({url, alt, content}) => (
-            <div key={uuidv4()} className='relative'>
-              <img src={url} alt={alt} className='rounded-2xl '/>
-              <p className='absolute top-0 pt-6 px-4 h-full w-full text-black/0 font-semibold duration-300 bg-[rgba(211,211,198,0.20)] rounded-2xl hover:text-black hover:duration-300 hover:bg-primary'>{content}</p>
+            <div key={uuidv4()} className='relative min-h-max'>
+              <img src={url} alt={alt} className='rounded-2xl w-full h-full object-cover'/>
+              <p className='absolute select-none top-0 pt-6 px-4 h-full w-full text-black/0 font-semibold duration-300 bg-[rgba(211,211,198,0.20)] rounded-2xl hover:text-black hover:duration-300 hover:bg-primary'>{content}</p>
             </div>
           ))
         }
