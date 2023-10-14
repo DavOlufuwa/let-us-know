@@ -10,6 +10,24 @@
       "techStory": "I got into tech via a friend of mine who was interested in opensource, after graduating from college in 2019, i realised that it won't be easy to make some moves and do the dos and don't, incredibly I was able to make my moves and to the Glory of God I finally got into this tech business. Cheeeeeee. I'm a frontend developer familiar with React, Typescript, NextJs and I'm excited to be part of this journey."
     }, 
     {
+      "name" : "Paul Pogba",
+      "specialization": "Frontend",
+      "githubUsername" : "DavOlufuwa",
+      "twitterUsername": "DLufuwa",
+      "email": "davolufuwa@gmail.com",
+      "location": "Lagos, Nigeria",
+      "techStory": "I got into tech via a friend of mine who was interested in opensource, after graduating from college in 2019, i realised that it won't be easy to make some moves and do the dos and don't, incredibly I was able to make my moves and to the Glory of God I finally got into this tech business. Cheeeeeee. I'm a frontend developer familiar with React, Typescript, NextJs and I'm excited to be part of this journey."
+    }, 
+    {
+      "name" : "Micheal Essien",
+      "specialization": "Frontend",
+      "githubUsername" : "DavOlufuwa",
+      "twitterUsername": "DLufuwa",
+      "email": "davolufuwa@gmail.com",
+      "location": "Lagos, Nigeria",
+      "techStory": "I got into tech via a friend of mine who was interested in opensource, after graduating from college in 2019, i realised that it won't be easy to make some moves and do the dos and don't, incredibly I was able to make my moves and to the Glory of God I finally got into this tech business. Cheeeeeee. I'm a frontend developer familiar with React, Typescript, NextJs and I'm excited to be part of this journey."
+    }, 
+    {
       "name" : "Olufuwa David",
       "specialization": "Backend",
       "githubUsername" : "DavOlufuwa",

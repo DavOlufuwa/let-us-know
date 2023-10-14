@@ -8,9 +8,7 @@ const routes = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
       <Route index  element={<Homepage />} />
-      <Route path="techies" element={<Profile />}>
-      
-      </Route>
+      <Route path="profile/:username" element={<Profile />} />
     </Route>  
   ))
 
